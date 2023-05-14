@@ -16,7 +16,7 @@
 #define TAG "BOARD"
 
 struct _led_state led_state[3] = {
-    { LED_OFF, LED_OFF, LED_R, "red"   }, //faf_test3 mn1
+    { LED_OFF, LED_OFF, LED_R, "red"   }, //faf_test3 mn1 BR2
     { LED_OFF, LED_OFF, LED_G, "green" },
     { LED_OFF, LED_OFF, LED_B, "blue"  },
 };
