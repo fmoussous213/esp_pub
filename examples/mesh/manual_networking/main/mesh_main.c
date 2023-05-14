@@ -102,7 +102,7 @@ void mesh_scan_done_handler(int num)
          * parent
          * Both channel and SSID of the parent are mandatory.
          */
-        parent.sta.channel = parent_record.primary; //faf_test2
+        parent.sta.channel = parent_record.primary; //faf_test2 mn1
         memcpy(&parent.sta.ssid, &parent_record.ssid,
                sizeof(parent_record.ssid));
         parent.sta.bssid_set = 1;
