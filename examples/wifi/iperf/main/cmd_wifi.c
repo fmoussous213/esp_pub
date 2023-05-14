@@ -85,7 +85,7 @@ static void scan_done_handler(void *arg, esp_event_base_t event_base,
         }
     }
     free(ap_list_buffer);
-    ESP_LOGI(TAG, "sta scan done"); //faf_test1
+    ESP_LOGI(TAG, "sta scan done"); //faf_test1 BR md1
 }
 
 static void got_ip_handler(void *arg, esp_event_base_t event_base,
